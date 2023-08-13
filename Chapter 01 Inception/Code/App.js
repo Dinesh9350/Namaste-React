@@ -2,16 +2,26 @@ const heading1 = React.createElement(
   'h1',
   {
     style: {
-      backgroundColor: 'black',
-			color: "white"
+      textAlign: 'center',
     },
   },
-  'Heading 1'
+  'Hello Everyone!'
 )
-const heading2 = React.createElement('h2', { className: 'title2' }, 'Heading 2')
+const heading2 = React.createElement(
+  'h2',
+  {
+    style: {
+      color: 'white',
+      backgroundColor: 'Black',
+      textAlign: 'center',
+    },
+  },
+  'Let"s Learn React!'
+)
 const container = React.createElement('div', { id: 'container' }, [
   heading1,
   heading2,
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(container)
+
