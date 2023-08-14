@@ -1,0 +1,32 @@
+Is JSX mandatory for React?
+JSX is not mandatory, but it's a recommended and widely-used syntax for defining React elements in a more readable and expressive way.
+
+Is ES6 mandatory for React?
+ES6 features like arrow functions and destructuring make coding in React more concise and efficient, but they are not mandatory. React can be used with ES5 as well.
+
+{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX
+All three forms render a component named TitleComponent. The last two are equivalent and can be used interchangeably.
+
+How can I write comments in JSX?
+Comments in JSX are written inside curly braces like this: {/* This is a comment */}.
+
+What is <React.Fragment></React.Fragment> and <> </> ?
+They are used for rendering multiple elements without adding an extra parent element. <React.Fragment> and <> are equivalent, but the latter is a shorthand.
+
+What is Virtual DOM?
+The Virtual DOM is a concept where a virtual representation of the actual DOM is created in memory. React uses it to optimize updates by minimizing actual DOM manipulations.
+
+What is Reconciliation in React?
+Reconciliation is the process of comparing the Virtual DOM with the actual DOM and updating only the necessary parts to keep them in sync efficiently.
+
+What is React Fiber?
+React Fiber is a complete rewrite of React's core algorithm. It allows React to manage and prioritize updates more efficiently, improving performance and user experience.
+
+Why we need keys in React? When do we need keys in React? Can we use index as keys in React?
+Keys help React identify which elements have changed, been added, or been removed. They are important for efficient updates, and while using the index as keys might work in some cases, it's not recommended as it can lead to unexpected behavior in certain situations.
+
+What is props in React?
+Props (short for properties) are a way to pass data from a parent component to a child component in React. They are read-only and help in making components reusable and dynamic.
+
+What is a Config Driven UI?
+A Config Driven UI is an approach where the user interface of an application is defined or customized through configuration files rather than hardcoding. This enables easy adjustments and flexibility in the UI without changing the codebase.

@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+/* header */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #0000002d;
+	margin-bottom: 1.5rem;
+	
+}
+
+.img {
+	width: 5.5rem;
+}
+
+.nav-items ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-items ul li {
+	padding: 1rem 1rem 0rem 1rem;
+
+}
+
+/* Body */
+
+.restraunt-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.restrauntCard{
+	margin: 1rem;
+	width: 18rem;
+	/* border: none; */
+	border-radius: 1rem;
+}
+.restrauntCard:hover{
+	box-shadow: 0rem 0rem .1rem 0rem;
+}
+
+.restrauntCard > img{
+	width: 18rem;
+	height:12rem;
+	object-fit: cover;
+	border-radius: 1rem;
+}
+
+.cuisines {
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
