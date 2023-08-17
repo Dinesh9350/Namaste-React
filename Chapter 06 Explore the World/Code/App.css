@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+	/* background-color: ; */
+	font-family: "Basis Grotesque Pro", Arial, sans-serif !important;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/* header */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #0000002d;
+	margin-bottom: 1.5rem;
+	
+}
+
+.img {
+	width: 5.5rem;
+}
+
+.nav-items ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-items ul li {
+	padding: 1rem 1rem 0rem 1rem;
+}
+
+/* Body */
+
+
+.search-container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+/* .search-input {
+
+}
+.search-btn {
+} */
+
+.restraunt-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.restrauntCard{
+	margin: 1rem;
+	width: 15rem;
+	height: 15rem;
+	/* border: none; */
+	border-radius: 1rem;
+}
+.restrauntCard:hover{
+	box-shadow: 0rem 0rem .1rem 0rem;
+}
+
+.restrauntCard > img{
+	width: 15rem;
+	height:9rem;
+	object-fit: cover;
+	border-radius: 1rem;
+}
+
+.rating {
+	font-size: .9rem;
+}
+.cuisines {
+	font-size: .8rem;
+	color: rgba(2, 6, 12, 0.6);
+	margin: 0rem;
+}
+.one-line {
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+/* // ShimmerCard */
+.shimmer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5rem;
+}
+.shimmerCard {
+    position: relative;
+    -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+    border-radius: 6px;
+    height: 15rem;
+    overflow: hidden;
+    width: 15rem;
+    margin: 2.5rem auto;
+}
+.shimmerBG {
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #ddd;
+    background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+    background-size: 1200px 100%;
+}
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+@keyframes shimmer {
+    0% {
+        background-position: -1200px 0;
+    }
+    100% {
+        background-position: 1200px 0;
+    }
+}
+    .media {
+    height: 200px;
+}
+.p-32 {
+    padding: 32px;
+}
+.title-line {
+    height: 24px;
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 20px;
+}
+.content-line {
+    height: 8px;
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+.end {
+      width: 40%;
+}
+.m-t-24 {
+    margin-top: 24px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	.nav-items ul li {
+		padding: 1rem .5rem 0rem .5rem;
+	}
+	.container {
+		margin: 0 1rem;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+	.nav-items ul li {
+		padding: 1rem .5rem 0rem .5rem;
+	}
+	.container {
+		margin: 0 1rem;
+	}
+}
